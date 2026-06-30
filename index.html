@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>दोस्ताना इंजीनियरिंग | Dostana Engineering - Tractor Trolley Manufacturer</title>
+    <meta name="description" content="मजबूत ट्रॉली, भरोसेमंद सेवा। Dostana Engineering manufactures premium Single Axle, Double Axle, Hydraulic Tipper, and Heavy Duty Tractor Trolleys in Rajasthan, Punjab, Haryana & UP. Get a custom quote today.">
+    <meta name="keywords" content="tractor trolley, hydraulic trolley, double axle trolley, agricultural trolley, commercial trolley, tractor trolley manufacturer Rajasthan, Punjab, Haryana, UP, buy trolley, kisan trolley, dostana engineering, dostana trolley">
+    <meta name="author" content="Dostana Engineering">
+    
+    <!-- Google Fonts: Poppins (English & Hindi) and Rajdhani (Industrial/Bold) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="images/logo.jpg">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#home" class="logo">
+                <img src="images/logo.jpg" alt="Dostana Engineering Logo" class="logo-img">
+                <div class="logo-text">
+                    <span class="brand-hi">दोस्ताना</span>
+                    <span class="brand-en">Engineering</span>
+                </div>
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">होम (Home)</a>
+                <a href="#products" class="nav-link">उत्पाद (Products)</a>
+                <a href="#features" class="nav-link">विशेषताएं (Features)</a>
+                <a href="#gallery" class="nav-link">गैलरी (Gallery)</a>
+                <a href="#about" class="nav-link">हमारे बारे में (About)</a>
+                <a href="#contact" class="nav-link">संपर्क (Contact)</a>
+                <a href="javascript:void(0)" class="nav-link" id="navManageBtn" onclick="checkAdminSession()"><i class="fa-solid fa-lock"></i> प्रबंधन (Manage)</a>
+            </nav>
+            
+            <div class="header-actions">
+                <a href="tel:+919828155752" class="btn btn-call hide-mobile">
+                    <i class="fa-solid fa-phone"></i> +91 98281 55752
+                </a>
+                <button class="btn btn-primary" onclick="openQuoteModal()">
+                    कोटेशन पाएं <i class="fa-solid fa-arrow-right"></i>
+                </button>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home" style="background-image: linear-gradient(rgba(17, 24, 39, 0.8), rgba(17, 24, 39, 0.85)), url('images/single_axle_real.jpg');">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="badge-accent"><i class="fa-solid fa-shield-halved"></i> भारत की नंबर 1 हैवी-ड्यूटी ट्रॉलियां</span>
+                <h1 class="hero-title-hi">मजबूत ट्रॉली, भरोसेमंद सेवा</h1>
+                <h2 class="hero-title-en">Premium & Custom-Built Tractor Trolleys</h2>
+                <p class="hero-description">
+                    दोस्ताना इंजीनियरिंग लेकर आया है खेती और कमर्शियल उपयोग के लिए सबसे टिकाऊ और मजबूत ट्रैक्टर ट्रॉलियां। उच्च गुणवत्ता वाले स्टील, मजबूत चेसिस और बेहतरीन फिनिशिंग के साथ निर्मित।
+                </p>
+                <div class="hero-ctas">
+                    <button class="btn btn-primary btn-lg" onclick="openQuoteModal()">
+                        <i class="fa-solid fa-file-invoice-dollar"></i> अभी कोटेशन प्राप्त करें
+                    </button>
+                    <a href="#products" class="btn btn-secondary btn-lg">
+                        <i class="fa-solid fa-wheat-awn"></i> हमारे उत्पाद देखें
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Wave Divider -->
+        <div class="wave-container">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,42.4V0Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Trust Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-calendar-check"></i></div>
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">वर्षों का अनुभव (Years of Trust)</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-truck-monster"></i></div>
+                    <div class="stat-number">5000+</div>
+                    <div class="stat-label">संतुष्ट किसान (Trolleys Sold)</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-certificate"></i></div>
+                    <div class="stat-number">3 साल</div>
+                    <div class="stat-label">स्ट्रक्चरल वारंटी (Warranty)</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">कस्टम डिजाइन (Custom Built)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">हमारे उत्पाद (Our Range)</span>
+                <h2 class="section-title">हर लोड के लिए विशेष ट्रॉलियां</h2>
+                <p class="section-subtitle">आपकी जरूरत के अनुसार मजबूत और टिकाऊ ट्रैक्टर ट्रॉलियों का विशाल संग्रह।</p>
+            </div>
+
+            <!-- Product Tabs -->
+            <div class="product-tabs">
+                <button class="tab-btn active" onclick="filterProducts('all')">सभी उत्पाद (All)</button>
+                <button class="tab-btn" onclick="filterProducts('single-axle')">सिंगल एक्सेल (Single Axle)</button>
+                <button class="tab-btn" onclick="filterProducts('double-axle')">डबल एक्सेल (Double Axle)</button>
+                <button class="tab-btn" onclick="filterProducts('hydraulic')">हाइड्रोलिक टिपर (Hydraulic)</button>
+                <button class="tab-btn" onclick="filterProducts('heavy-duty')">हैवी ड्यूटी (Heavy Duty)</button>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="products-grid" id="productsGrid">
+                <!-- Dynamic Products Loaded by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag text-white">हमारी विशेषताएं (Why Choose Us)</span>
+                <h2 class="section-title text-white">बेहतर इंजीनियरिंग, असाधारण मजबूती</h2>
+                <p class="section-subtitle text-white-muted">हर दोस्ताना ट्रॉली को आधुनिक तकनीक और उच्च श्रेणी की सामग्री से तैयार किया जाता है।</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-dumbbell"></i></div>
+                    <h3 class="feature-title">उच्च भार क्षमता (High Load Capacity)</h3>
+                    <p class="feature-desc">विशेष रूप से डिजाइन किया गया हेवी-ड्यूटी एक्सल और टाटा हब्स जो बिना किसी परेशानी के भारी से भारी लोड आसानी से उठा सकते हैं।</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-cubes"></i></div>
+                    <h3 class="feature-title">मजबूत स्टील चेसिस (Durable Steel Frame)</h3>
+                    <p class="feature-desc">जिंदल या टाटा के मजबूत चैनल (IS 2062) का उपयोग करके तैयार किया गया चेसिस जो मुड़ने या टूटने से पूरी तरह सुरक्षित है।</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-scissors"></i></div>
+                    <h3 class="feature-title">कस्टम साइज विकल्प (Custom Sizes)</h3>
+                    <p class="feature-desc">आपकी जरूरत और ट्रैक्टर की हॉर्सपावर के अनुसार कस्टमाइज्ड लंबाई, चौड़ाई और ऊंचाई में ट्रॉली निर्माण की सुविधा।</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-brush"></i></div>
+                    <h3 class="feature-title">जंग-रोधी कोटिंग (Rust-Proof Paint)</h3>
+                    <p class="feature-desc">डबल कोट रेड-ऑक्साइड एपॉक्सी प्राइमर के साथ प्रीमियम ऑटोमोटिव पेंट जो धूप और बारिश में जंग लगने से बचाता है।</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-circle-nodes"></i></div>
+                    <h3 class="feature-title">प्रीमियम हाइड्रोलिक जैक (Heavy Duty Jack)</h3>
+                    <p class="feature-desc">हमारे हाइड्रोलिक मॉडल में आईएसओ प्रमाणित मल्टी-स्टेज जैक लगाया जाता है, जो सालों-साल बिना किसी लीकेज के काम करता है।</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-gears"></i></div>
+                    <h3 class="feature-title">मजबूत कमानी पट्टे (Reinforced Leaf Springs)</h3>
+                    <p class="feature-desc">उबड़-खाबड़ रास्तों पर आसान सफर के लिए विशेष ग्रेड स्टील से निर्मित ज्यादा पत्तों वाली मजबूत कमानी (लीफ स्प्रिंग्स)।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">गैलरी (Our Gallery)</span>
+                <h2 class="section-title">फैक्ट्री और डिलीवरी की झलकियां</h2>
+                <p class="section-subtitle">हाल ही में निर्मित और ग्राहकों को डिलीवर की गई ट्रॉलियों की तस्वीरें।</p>
+            </div>
+            
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Dynamic Gallery Loaded by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about" id="about">
+        <div class="container about-container">
+            <div class="about-img-group">
+                <img src="images/about_real.jpg" alt="Our Workshop" class="about-main-img">
+                <div class="experience-badge">
+                    <span class="exp-years">15+</span>
+                    <span class="exp-text">सालों का बेहतरीन रिकॉर्ड</span>
+                </div>
+            </div>
+            
+            <div class="about-content">
+                <span class="section-tag">हमारे बारे में (About Us)</span>
+                <h2 class="section-title">भारतीय किसानों का सच्चा साथी - दोस्ताना इंजीनियरिंग</h2>
+                <p class="about-text">
+                    दोस्ताना इंजीनियरिंग की स्थापना आज से 15 वर्ष पूर्व किसानों और ट्रांसपोर्टरों को उच्च गुणवत्ता वाले परिवहन साधन उपलब्ध कराने के उद्देश्य से की गई थी। हमारा कारखाना राजस्थान के बिगोद (भीलवाड़ा) में स्थित है, जहाँ कुशल कारीगरों और आधुनिक मशीनों की मदद से बेहतरीन ट्रॉलियां बनाई जाती हैं।
+                </p>
+                <p class="about-text">
+                    हम केवल ट्रॉली नहीं बेचते, हम विश्वास का निर्माण करते हैं। हमारी हर ट्रॉली में इस्तेमाल होने वाला स्टील जिंदल, टाटा और सेल (SAIL) जैसी ब्रांडेड कंपनियों का होता है। यही कारण है कि आज राजस्थान, पंजाब, हरियाणा और उत्तर प्रदेश के हजारों किसान और ठेकेदार हमारी ट्रॉलियों पर पूरा भरोसा करते हैं।
+                </p>
+                
+                <ul class="about-features">
+                    <li><i class="fa-solid fa-circle-check text-accent"></i> उच्च गुणवत्ता वाला ब्रांडेड स्टील (Tata & Jindal Steel)</li>
+                    <li><i class="fa-solid fa-circle-check text-accent"></i> अनुभवी इंजीनियर्स और कुशल वेल्डर्स द्वारा निर्माण</li>
+                    <li><i class="fa-solid fa-circle-check text-accent"></i> बिक्री के बाद बेहतरीन सर्विस और वारंटी सपोर्ट</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">संपर्क करें (Contact Us)</span>
+                <h2 class="section-title">आज ही अपनी ट्रॉली बुक करें</h2>
+                <p class="section-subtitle">कोई भी सवाल हो या कस्टमाइज्ड ट्रॉली का आर्डर देना हो, बेझिझक संपर्क करें।</p>
+            </div>
+            
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info-panel">
+                    <h3 class="panel-title">संपर्क सूत्र (Get In Touch)</h3>
+                    <p class="panel-desc">फैक्ट्री पर पधार कर काम की क्वालिटी देखने के लिए आपका हमेशा स्वागत है।</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="contact-text">
+                                <h4>कारखाना और ऑफिस (Factory Address):</h4>
+                                <p>चमन चौराया, बिगोद, भीलवाड़ा, राजस्थान - 311601</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fa-solid fa-phone-volume"></i></div>
+                            <div class="contact-text">
+                                <h4>फोन नंबर (Call Now):</h4>
+                                <p><a href="tel:+919828155752">+91 98281 55752</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="contact-text">
+                                <h4>ईमेल आईडी (Email):</h4>
+                                <p><a href="mailto:info@dostanaengineering.com">info@dostanaengineering.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Open Hours -->
+                    <div class="open-hours">
+                        <h4>कार्य समय (Working Hours):</h4>
+                        <p><i class="fa-regular fa-clock text-accent"></i> सोमवार से शनिवार: सुबह 9:00 बजे से शाम 7:00 बजे तक (रविवार अवकाश)</p>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="contact-form-panel">
+                    <h3 class="panel-title">पूछताछ फॉर्म (Inquiry Form)</h3>
+                    <form id="contactForm" onsubmit="handleFormSubmit(event)">
+                        <div class="form-group">
+                            <label for="fullName">आपका नाम (Full Name) <span class="required">*</span></label>
+                            <input type="text" id="fullName" name="fullName" placeholder="अपना नाम लिखें" required>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phoneNum">मोबाइल नंबर (Mobile) <span class="required">*</span></label>
+                                <input type="tel" id="phoneNum" name="phoneNum" placeholder="10 अंकों का नंबर" pattern="[6-9][0-9]{9}" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="location">आपका जिला/राज्य (Location) <span class="required">*</span></label>
+                                <input type="text" id="location" name="location" placeholder="उदा. भीलवाड़ा, राजस्थान" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="trolleyType">ट्रॉली का प्रकार (Trolley Type)</label>
+                            <select id="trolleyType" name="trolleyType">
+                                <option value="" disabled selected>चुनें...</option>
+                                <option value="3 Ton Single Axle">3 टन सिंगल एक्सेल ट्रॉली (3 Ton Single Axle)</option>
+                                <option value="4 Ton Single Axle">4 टन सिंगल एक्सेल ट्रॉली (4 Ton Single Axle)</option>
+                                <option value="5 Ton Single Axle">5 टन सिंगल एक्सेल ट्रॉली (5 Ton Single Axle)</option>
+                                <option value="6 Ton Single Axle">6 टन सिंगल एक्सेल ट्रॉली (6 Ton Single Axle)</option>
+                                <option value="Custom Single Axle">कस्टम सिंगल एक्सेल ट्रॉली (Custom Single Axle)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">विवरण या साइज (Message / Specific Requirement)</label>
+                            <textarea id="message" name="message" rows="4" placeholder="कृपया साइज या कोई अन्य जरूरत यहाँ लिखें..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block">
+                            संदेश भेजें / Send Inquiry <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Map Placeholder -->
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57924.97521884457!2d75.24430154378906!3d25.213197607736423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3968bdf3ebae5ab9%3A0x8673a3885d564cfd!2sBigod%2C%20Rajasthan%20311601!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-bottom">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#home" class="logo">
+                    <img src="images/logo.jpg" alt="Dostana Engineering Logo" class="logo-img">
+                    <div class="logo-text">
+                        <span class="brand-hi">दोस्ताना</span>
+                        <span class="brand-en">Engineering</span>
+                    </div>
+                </a>
+                <p class="footer-tagline">मजबूत ट्रॉली, भरोसेमंद सेवा। दोस्ताना इंजीनियरिंग राजस्थान, पंजाब, Haryana, और यूपी में उच्च-गुणवत्ता वाली ट्रैक्टर ट्रॉलियों के निर्माता हैं।</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h3>त्वरित लिंक्स (Quick Links)</h3>
+                <ul>
+                    <li><a href="#home">मुख्य पृष्ठ (Home)</a></li>
+                    <li><a href="#products">उत्पाद (Products)</a></li>
+                    <li><a href="#features">विशेषताएं (Features)</a></li>
+                    <li><a href="#gallery">गैलरी (Gallery)</a></li>
+                    <li><a href="#about">हमारे बारे में (About Us)</a></li>
+                    <li><a href="#contact">संपर्क करें (Contact)</a></li>
+                    <li><a href="javascript:void(0)" onclick="checkAdminSession()"><i class="fa-solid fa-lock"></i> प्रबंधन (Admin Login)</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-newsletter">
+                <h3>हमसे जुड़े रहें</h3>
+                <p>नवीनतम डिज़ाइनों और नए ऑफर्स की जानकारी सीधे अपने ईमेल पर पाएं।</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="ईमेल आईडी दर्ज करें" aria-label="Email for newsletter">
+                    <button class="btn btn-primary" onclick="alert('न्यूज़लेटर सदस्यता के लिए धन्यवाद!')"><i class="fa-solid fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="copyright-bar">
+            <div class="container copyright-container">
+                <p>&copy; 2026 दोस्ताना इंजीनियरिंग। सर्वाधिकार सुरक्षित।</p>
+                <p>Designed with <i class="fa-solid fa-heart text-accent"></i> for Indian Farmers</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Buttons -->
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/919828155752?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A4%BE%E0%A4%B0%21%20%E0%A4%AE%E0%A5%8D%E0%A4%97%E0%A5%87%20%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A5%89%E0%A4%B2%E0%A5%80%20%E0%A4%95%E0%A5%87%20%E0%A4%AC%E0%A4%BE%E0%A4%B0%E0%A5%87%20%E0%A4%AE%E0%A5%8D%E0%A4%82%20%E0%A4%AA%E0%A5%82%E0%A4%9B%E0%A4%A4%E0%A4%BE%E0%A4%9B%20%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A5%80%20%E0%A4%B9%E0%A5%88%E0%A5%8D%E0%A5%A4" class="whatsapp-float" target="_blank" aria-label="Inquiry on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">व्हाट्सएप पर पूछें</span>
+    </a>
+    
+    <!-- Mobile Call Button -->
+    <a href="tel:+919828155752" class="call-float-mobile" aria-label="Call Now">
+        <i class="fa-solid fa-phone"></i>
+        <span>कॉल करें</span>
+    </a>
+
+    <!-- Interactive Get Quote Modal -->
+    <div class="modal" id="quoteModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeQuoteModal()">&times;</button>
+            <h3 class="modal-title">मुफ़्त कोटेशन प्राप्त करें</h3>
+            <p class="modal-subtitle">कृपया नीचे दी गई जानकारी भरें, हमारे अधिकारी आपसे जल्द संपर्क करेंगे।</p>
+            
+            <form id="quoteForm" onsubmit="handleQuoteSubmit(event)">
+                <div class="form-group">
+                    <label for="modalName">आपका नाम (Your Name) <span class="required">*</span></label>
+                    <input type="text" id="modalName" required placeholder="अपना नाम लिखें">
+                </div>
+                
+                <div class="form-group">
+                    <label for="modalPhone">मोबाइल नंबर (Mobile Number) <span class="required">*</span></label>
+                    <input type="tel" id="modalPhone" pattern="[6-9][0-9]{9}" required placeholder="10 अंकों का नंबर">
+                </div>
+                
+                <div class="form-group">
+                    <label for="modalLocation">आपका स्थान/गाँव (Location) <span class="required">*</span></label>
+                    <input type="text" id="modalLocation" required placeholder="गाँव, तहसील, जिला, राज्य">
+                </div>
+                
+                <div class="form-group">
+                    <label for="modalTrolley">ट्रॉली का प्रकार (Select Trolley Type)</label>
+                    <select id="modalTrolley">
+                        <option value="3 Ton Single Axle">3 टन सिंगल एक्सेल ट्रॉली (3 Ton Single Axle)</option>
+                        <option value="4 Ton Single Axle">4 टन सिंगल एक्सेल ट्रॉली (4 Ton Single Axle)</option>
+                        <option value="5 Ton Single Axle">5 टन सिंगल एक्सेल ट्रॉली (5 Ton Single Axle)</option>
+                        <option value="6 Ton Single Axle">6 टन सिंगल एक्सेल ट्रॉली (6 Ton Single Axle)</option>
+                        <option value="Custom Single Axle">कस्टम सिंगल एक्सेल ट्रॉली (Custom Single Axle)</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-block">अभी बुक करें / Get Quote <i class="fa-solid fa-arrow-right"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Product Specifications Modal -->
+    <div class="modal" id="specsModal">
+        <div class="modal-content modal-lg">
+            <button class="modal-close" onclick="closeSpecsModal()">&times;</button>
+            <h3 class="modal-title" id="specsTitle">तकनीकी विवरण (Technical Specifications)</h3>
+            
+            <div class="specs-table-container">
+                <table class="specs-table">
+                    <thead>
+                        <tr>
+                            <th>फ़ीचर (Feature)</th>
+                            <th>विवरण (Specification Detail)</th>
+                        </tr>
+                    </thead>
+                    <tbody id="specsTableBody">
+                        <!-- Dynamic Content Loaded by JS -->
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="modal-actions" style="margin-top: 20px; display: flex; justify-content: flex-end;">
+                <button class="btn btn-primary" onclick="closeSpecsModal(); openQuoteModal(document.getElementById('specsTitle').innerText.replace(' तकनीकी विवरण', ''))">इस मॉडल के लिए कोटेशन लें</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox for Gallery -->
+    <div class="lightbox" id="galleryLightbox" onclick="closeLightbox()">
+        <button class="lightbox-close">&times;</button>
+        <img id="lightboxImg" src="" alt="Full Screen View">
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toastNotification">
+        <div class="toast-content">
+            <i class="fa-solid fa-circle-check toast-icon"></i>
+            <div class="toast-text">
+                <h4 id="toastTitle">सफलतापूर्वक भेजा गया!</h4>
+                <p id="toastMessage">आपका संदेश हमें प्राप्त हो गया है। हम जल्द ही आपसे संपर्क करेंगे।</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Admin Login Modal -->
+    <div class="modal" id="adminLoginModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeAdminLoginModal()">&times;</button>
+            <h3 class="modal-title"><i class="fa-solid fa-lock text-accent"></i> एडमिन लॉगिन</h3>
+            <p class="modal-subtitle">प्रबंधन पैनल तक पहुंचने के लिए लॉगिन करें।</p>
+            
+            <form id="adminLoginForm" onsubmit="handleAdminLogin(event)">
+                <div class="form-group">
+                    <label for="adminUsername">यूजरनेम (Username) <span class="required">*</span></label>
+                    <input type="text" id="adminUsername" required placeholder="यूजरनेम डालें">
+                </div>
+                <div class="form-group">
+                    <label for="adminPassword">पासवर्ड (Password) <span class="required">*</span></label>
+                    <input type="password" id="adminPassword" required placeholder="पासवर्ड डालें">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">लॉगिन करें / Login <i class="fa-solid fa-sign-in-alt"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Admin Dashboard Modal -->
+    <div class="modal" id="adminDashboardModal">
+        <div class="modal-content modal-lg">
+            <button class="modal-close" onclick="closeAdminDashboardModal()">&times;</button>
+            <div class="dashboard-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 2px solid var(--border-color); padding-bottom: 15px;">
+                <h3 class="modal-title" style="margin-bottom: 0;"><i class="fa-solid fa-gauge-high text-accent"></i> प्रबंधन पैनल (Admin Dashboard)</h3>
+                <button class="btn btn-outline btn-sm" onclick="handleAdminLogout()" style="border-color: var(--accent-orange-dark); color: var(--accent-orange-dark);"><i class="fa-solid fa-sign-out-alt"></i> लॉगआउट (Logout)</button>
+            </div>
+            
+            <!-- Dashboard Tabs -->
+            <div class="dashboard-tabs" style="display: flex; gap: 15px; margin-bottom: 20px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px;">
+                <button class="tab-btn active" id="btnTabManageProducts" onclick="switchDashboardTab('products')"><i class="fa-solid fa-truck-ramp-box"></i> उत्पाद (Products)</button>
+                <button class="tab-btn" id="btnTabManageGallery" onclick="switchDashboardTab('gallery')"><i class="fa-solid fa-images"></i> गैलरी (Gallery)</button>
+            </div>
+            
+            <!-- Products Panel -->
+            <div class="dashboard-panel active" id="panelManageProducts">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                    <h4>सभी उत्पाद (All Products)</h4>
+                    <button class="btn btn-primary btn-sm" onclick="showProductForm()"><i class="fa-solid fa-plus"></i> नया उत्पाद जोड़ें</button>
+                </div>
+                
+                <!-- Product Form (Hidden by Default) -->
+                <div id="productFormWrapper" style="display: none; background: var(--light-bg); padding: 20px; border-radius: 12px; margin-bottom: 20px; border: 1px solid var(--border-color);">
+                    <h5 id="productFormTitle" style="font-size: 1.1rem; margin-bottom: 15px; color: var(--primary-green-dark);">नया उत्पाद जोड़ें (Add Product)</h5>
+                    <form id="productForm" onsubmit="handleProductFormSubmit(event)">
+                        <input type="hidden" id="editProductId">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="prodCategory">श्रेणी (Category) *</label>
+                                <select id="prodCategory" required>
+                                    <option value="single-axle">सिंगल एक्सेल (Single Axle)</option>
+                                    <option value="double-axle">डबल एक्सेल (Double Axle)</option>
+                                    <option value="hydraulic">हाइड्रोलिक टिपर (Hydraulic)</option>
+                                    <option value="heavy-duty">हैवी ड्यूटी (Heavy Duty)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="prodBadge">बैज (Badge) - उदा. बेस्ट सेलर</label>
+                                <input type="text" id="prodBadge" placeholder="उदा. बेस्ट सेलर">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="prodTitleHi">नाम हिंदी में (Title Hindi) *</label>
+                                <input type="text" id="prodTitleHi" required placeholder="उदा. कस्टमाइज्ड सिंगल एक्सेल ट्रॉली">
+                            </div>
+                            <div class="form-group">
+                                <label for="prodTitleEn">नाम अंग्रेजी में (Title English) *</label>
+                                <input type="text" id="prodTitleEn" required placeholder="Custom Single Axle Trolley">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="prodDesc">विवरण (Description) *</label>
+                            <textarea id="prodDesc" rows="2" required placeholder="उत्पाद के बारे में संक्षिप्त विवरण लिखें..."></textarea>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="prodPrice">कीमत (Price) *</label>
+                                <input type="text" id="prodPrice" required placeholder="उदा. ₹1,25,000* से शुरू">
+                            </div>
+                            <div class="form-group">
+                                <label for="prodImage">छवि स्रोत (Image Path/URL) *</label>
+                                <input type="text" id="prodImage" required value="images/single_axle_real.jpg" placeholder="images/filename.jpg">
+                            </div>
+                        </div>
+                        
+                        <!-- Specs Fields -->
+                        <h6 style="margin-top: 15px; margin-bottom: 10px; font-size: 0.95rem; border-bottom: 1px dashed var(--border-color); padding-bottom: 5px;">तकनीकी विनिर्देश (Specifications)</h6>
+                        <div class="form-row" id="specsInputsContainer">
+                            <div class="form-group">
+                                <label for="specCapacity">क्षमता (Capacity)</label>
+                                <input type="text" id="specCapacity" placeholder="उदा. 3 - 6 टन">
+                            </div>
+                            <div class="form-group">
+                                <label for="specSheet">शीट (Sheet)</label>
+                                <input type="text" id="specSheet" placeholder="उदा. 10 gauge / 3.15 mm">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="specChassis">चेसिस (Chassis)</label>
+                                <input type="text" id="specChassis" placeholder="उदा. 6&quot; x 3&quot; Channel">
+                            </div>
+                            <div class="form-group">
+                                <label for="specTyres">टायर (Tyres)</label>
+                                <input type="text" id="specTyres" placeholder="उदा. 7.50 x 16 / 9.00 x 16">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="specExtraName">अन्य विनिर्देश का नाम (Extra Spec Name)</label>
+                                <input type="text" id="specExtraName" placeholder="उदा. जैक (Hydraulic Jack)">
+                            </div>
+                            <div class="form-group">
+                                <label for="specExtraValue">अन्य विनिर्देश का मान (Extra Spec Value)</label>
+                                <input type="text" id="specExtraValue" placeholder="उदा. 10-15 Ton Capacity (ISO)">
+                            </div>
+                        </div>
+                        
+                        <div style="display: flex; justify-content: flex-end; gap: 10px; margin-top: 15px;">
+                            <button type="button" class="btn btn-outline btn-sm" onclick="hideProductForm()">रद्द करें (Cancel)</button>
+                            <button type="submit" class="btn btn-primary btn-sm"><i class="fa-solid fa-save"></i> सहेजें (Save Product)</button>
+                        </div>
+                    </form>
+                </div>
+                
+                <!-- Product List Table -->
+                <div class="specs-table-container" style="max-height: 400px; overflow-y: auto;">
+                    <table class="specs-table">
+                        <thead>
+                            <tr>
+                                <th>नाम (Name)</th>
+                                <th>श्रेणी (Category)</th>
+                                <th>कीमत (Price)</th>
+                                <th>कार्रवाई (Actions)</th>
+                            </tr>
+                        </thead>
+                        <tbody id="adminProductsTableBody">
+                            <!-- Dynamic Content -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <!-- Gallery Panel -->
+            <div class="dashboard-panel" id="panelManageGallery" style="display: none;">
+                <h4>गैलरी चित्र प्रबंधित करें (Manage Gallery Images)</h4>
+                
+                <!-- Add Image Form -->
+                <div style="background: var(--light-bg); padding: 20px; border-radius: 12px; margin: 15px 0 25px 0; border: 1px solid var(--border-color);">
+                    <h5 style="font-size: 1.1rem; margin-bottom: 15px; color: var(--primary-green-dark);">नया चित्र जोड़ें (Add Gallery Image)</h5>
+                    <form id="galleryForm" onsubmit="handleGalleryFormSubmit(event)">
+                        <div class="form-row" style="align-items: flex-end;">
+                            <div class="form-group" style="flex: 2;">
+                                <label for="galTitle">चित्र शीर्षक (Image Title) *</label>
+                                <input type="text" id="galTitle" required placeholder="उदा. दोस्ताना ट्रॉली (साइड व्यू)">
+                            </div>
+                            <div class="form-group" style="flex: 2;">
+                                <label for="galFileInput">फाइल अपलोड करें (Upload File) *</label>
+                                <input type="file" id="galFileInput" accept="image/*" required onchange="handleGalleryFileSelect(event)">
+                                <input type="hidden" id="galFileData">
+                                <input type="hidden" id="galFileName">
+                            </div>
+                            <div class="form-group" style="flex: 1;">
+                                <button type="submit" class="btn btn-primary btn-block" style="height: 48px;"><i class="fa-solid fa-upload"></i> जोड़ें (Add)</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                
+                <!-- Gallery Management List -->
+                <div id="adminGalleryList" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; max-height: 400px; overflow-y: auto; padding: 5px;">
+                    <!-- Dynamic Content -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>

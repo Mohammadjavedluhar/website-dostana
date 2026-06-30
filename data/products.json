@@ -1,0 +1,66 @@
+[
+  {
+    "id": "single-axle-1",
+    "category": "single-axle",
+    "titleHi": "कस्टमाइज्ड सिंगल एक्सेल ट्रॉली",
+    "titleEn": "Custom Single Axle Trolley",
+    "desc": "कृषि कार्यों, चारा और अनाज परिवहन के लिए सर्वोत्तम। हल्के और मध्यम भार के लिए आदर्श।",
+    "specs": {
+      "Capacity": "3 - 6 टन",
+      "Sheet": "10 gauge / 3.15 mm",
+      "Chassis": "6\" x 3\" Channel",
+      "Tyre Size": "7.50 x 16 / 9.00 x 16"
+    },
+    "price": "₹1,25,000* से शुरू",
+    "image": "images/single_axle_real.jpg",
+    "badge": "बेस्ट सेलर"
+  },
+  {
+    "id": "double-axle-1",
+    "category": "double-axle",
+    "titleHi": "कस्टमाइज्ड डबल एक्सेल ट्रॉली",
+    "titleEn": "Custom Double Axle Trolley",
+    "desc": "लंबी दूरी और भारी कृषि व व्यावसायिक परिवहन के लिए अत्यंत स्थिर और शक्तिशाली डिजाइन।",
+    "specs": {
+      "Capacity": "8 - 12 टन",
+      "Sheet": "8 gauge / 4.0 mm",
+      "Chassis": "8\" x 3\" Heavy Channel",
+      "Tyre Size": "9.00 x 20 (4 Tyres)"
+    },
+    "price": "₹2,40,000* से शुरू",
+    "image": "images/about_real.jpg",
+    "badge": "मजबूत पकड़"
+  },
+  {
+    "id": "hydraulic-1",
+    "category": "hydraulic",
+    "titleHi": "कस्टमाइज्ड हाइड्रोलिक टिपर ट्रॉली",
+    "titleEn": "Custom Hydraulic Tipper Trolley",
+    "desc": "मिट्टी, रेत, बजरी और कृषि उत्पादों को आसानी से और तेजी से खाली करने के लिए उच्च क्षमता वाला जैक सिस्टम।",
+    "specs": {
+      "Capacity": "5 - 10 टन",
+      "Hydraulic Jack": "10-15 Ton Capacity (ISO)",
+      "Chassis": "8\" x 3\" High Tensile",
+      "Tyre Size": "9.00 x 20 / 10.00 x 20"
+    },
+    "price": "₹1,95,000* से शुरू",
+    "image": "images/single_axle_real.jpg",
+    "badge": "ऑटो अनलोड"
+  },
+  {
+    "id": "heavy-duty-1",
+    "category": "heavy-duty",
+    "titleHi": "कस्टमाइज्ड हैवी ड्यूटी कमर्शियल ट्रॉली",
+    "titleEn": "Custom Heavy Duty Commercial Trolley",
+    "desc": "ईंट भट्ठा, माइनिंग, क्रशर और भारी निर्माण सामग्री परिवहन के लिए विशेष रूप से डिजाइन।",
+    "specs": {
+      "Capacity": "12 - 18 टन",
+      "Sheet": "6 gauge / 5.0 mm Base",
+      "Axles": "Heavy Double Axle (Tata Hubs)",
+      "Suspension": "Heavy duty Leaf Springs"
+    },
+    "price": "₹3,20,000* से शुरू",
+    "image": "images/about_real.jpg",
+    "badge": "चरम क्षमता"
+  }
+]

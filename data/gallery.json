@@ -1,0 +1,8 @@
+[
+  { "id": "t1", "image": "images/trolley_1.jpg", "title": "आकर्षक पेंट आर्ट (मेरा भारत महान)" },
+  { "id": "t2", "image": "images/trolley_2.jpg", "title": "दोस्ताना ट्रॉली (फ्रंट व्यू - शुभ लाभ)" },
+  { "id": "t3", "image": "images/trolley_3.jpg", "title": "कस्टमाइज्ड ग्रीन-येलो ट्रॉली (बैक व्यू)" },
+  { "id": "t4", "image": "images/trolley_4.jpg", "title": "हैवी-ड्यूटी चेसिस और कमानी पट्टे" },
+  { "id": "t5", "image": "images/trolley_5.jpg", "title": "डिलीवरी के लिए तैयार शानदार ट्रॉलियां" },
+  { "id": "t6", "image": "images/single_axle_real.jpg", "title": "प्रीमियम सिंगल एक्सेल ट्रॉली (साइड व्यू)" }
+]
