@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const PORT = 8000;
+const ADMIN_USERNAMES = ['admin', 'royaljavedkhan09'];
 const ADMIN_PASSWORD = 'dostana2026';
 const ADMIN_TOKEN = 'dostana-admin-token-2026';
 
@@ -51,7 +52,7 @@ const server = http.createServer(async (req, res) => {
         try {
             const body = await getRequestBody(req);
             const { username, password } = JSON.parse(body);
-            if (username === 'admin' && password === ADMIN_PASSWORD) {
+            if (ADMIN_USERNAMES.includes(username) && password === ADMIN_PASSWORD) {
                 return sendJson(res, 200, { success: true, token: ADMIN_TOKEN });
             } else {
                 return sendJson(res, 401, { success: false, message: 'गलत यूजरनेम या पासवर्ड!' });
